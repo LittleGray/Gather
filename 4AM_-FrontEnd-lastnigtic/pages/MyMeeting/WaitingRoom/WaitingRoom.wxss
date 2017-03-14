@@ -1,0 +1,146 @@
+@import '../../Template/members-template/members-template.wxss';
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: #f4f4f4;
+  width: 100%;
+  min-height: 100%;
+}
+/*上半部分*/
+.header-wrapper {
+  position: relative;
+  height: 320px;
+  width: 100%;
+}
+.waiting-bg {
+  position: absolute;
+  width: 100%;
+  height: 320px;
+}
+.start-icon {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  margin:auto;
+  left:0;right: 0;top:14%;
+}
+.startMeeting {
+  position: absolute;
+  margin-top: 195px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.summary {
+  position: absolute;
+  margin-top: 245px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.menu {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 47px;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.memberList {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+.member-icon {
+  margin: 7.5px 7.5px;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.memberText {
+  vertical-align: middle;
+}
+.fileList {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+.file-icon {
+  margin: 7.5px 7.5px;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.fileText {
+  vertical-align: middle;
+}
+.vertical-line {
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  margin-top: 8.5px;
+  background: radial-gradient(white, black);
+  left: 50%;
+}
+.triangle {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -5px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #f4f4f4;
+  border-left: 10px solid transparent;
+  transform: rotate(-45deg);
+}
+.triangle.member {
+  margin-left: 99rpx;
+}
+.triangle.file {
+  right: 0;
+  margin-right: 259rpx;
+}
+/*下半部分*/
+/*成员*/
+.members-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+/*文件列表*/
+.files-wrapper{ 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.file-item{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width:100%;
+  height:59px;
+}
+.file-detail{
+  display: flex;
+  flex-direction: row;
+}
+.type-icon{
+  margin:4px 20px;
+  width:47px;
+  height:47px;
+}
+.cutOff{
+  margin:0;
+  width:100%;
+  height:4px;
+}
+.file-name{
+  font-size:18px;
+  color:#9d9d9d;
+  line-height:55px;
+}
