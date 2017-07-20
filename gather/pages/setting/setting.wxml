@@ -1,0 +1,27 @@
+<!--setting.wxml-->
+<view class="container">
+  <view class="back"></view>
+  <view class="box"></view>
+  <view class="content">
+    <view class="list" bindtap="toInfo">
+      <image class="list-pic" src="../../image/info.png"></image>
+      <text class="text" >个人资料</text>
+      <image class="right" src="../../image/right.png"></image>
+    </view>  
+    <view class="list" bindtap="toEveryday"> 
+      <image class="list-pic" src="../../image/everyday.png"></image>
+      <text class="text" >每日打卡</text>
+      <image class="right" src="../../image/right.png"></image>
+    </view>
+    <view class="list" bindtap="toQuestion">
+      <image class="list-pic" src="../../image/question.png"></image>
+      <text class="text" >问题反馈</text>
+      <image class="right" src="../../image/right.png"></image>
+    </view>
+    <view class="list" bindtap="toSettings">
+      <image class="list-pic" src="../../image/settings.png"></image>
+      <text class="text" >设置</text>
+      <image class="right" src="../../image/right.png"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="back"></view>
+    <view class="wrap-pic">
+      <image class="pic" src="../../image/pic.png"></image>
+    </view>
+    <view class="content">
+      <view class="row">
+        <view class="cir cir1" bindtap="toLaunch">
+          <image class="icon" src="../../image/launch.png"></image>
+        </view>        
+        <view class="cir cir2" bindtap="toParttime">
+          <image class="icon" src="../../image/launch.png"></image>
+        </view>
+        <view class="cir cir3" bindtap="toSite">
+          <image class="icon" src="../../image/launch.png"></image>
+        </view>
+      </view>
+      <view class="text-row">
+        <text>发起运动</text>
+        <text>兼职教练</text>
+        <text>场地寻找</text>
+      </view>
+      <view class="row">
+        <view class="cir cir4" bindtap="toMatch">
+          <image class="icon" src="../../image/launch.png"></image>
+        </view>
+        <view class="cir cir5" bindtap="toCircle">
+          <image class="icon" src="../../image/launch.png"></image>
+        </view>
+        <view class="cir cir6" bindtap="toShop">
+          <image class="icon" src="../../image/launch.png"></image>
+        </view>
+      </view>
+      <view class="text-row">
+        <text>运动赛事</text>
+        <text>生活圈</text>
+        <text>体育商城</text>
+      </view>
+    </view>
+    <view class="message"></view>
+</view>

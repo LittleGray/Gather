@@ -1,0 +1,10 @@
+/* launch.wxss */
+.back {
+  width: 100%;
+  height: 80rpx;  
+  background-color: #2a8cff;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14pt;
+}

@@ -1,0 +1,4 @@
+<!--launch.wxml-->
+<view class="container">
+  <view class="back">发起运动</view>
+</view>

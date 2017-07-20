@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/setting/setting",
+    "pages/circle/circle",
+    "pages/time/time",
+    "pages/launch/launch",
+    "pages/parttime/parttime",
+    "pages/site/site",
+    "pages/match/match",
+    "pages/shop/shop"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#2a8cff",
+    "navigationBarTitleText": "Gather",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#2a8cff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/index.png",
+        "selectedIconPath": "image/index2.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/time/time",
+        "iconPath": "image/time.png",
+        "selectedIconPath": "image/time2.png",
+        "text": "提醒"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "iconPath": "image/circle.png",
+        "selectedIconPath": "image/circle2.png",
+        "text": "生活圈"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "iconPath": "image/setting.png",
+        "selectedIconPath": "image/setting2.png",
+        "text": "用户"
+      }
+    ]
+  }
+}
